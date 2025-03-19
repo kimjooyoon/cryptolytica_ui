@@ -1,0 +1,50 @@
+# CryptoLytica 관리자 UI 설정
+
+# API 설정
+api:
+  base_url: "http://localhost:8000"  # CryptoLytica API 서버 URL
+  api_key: ""  # API 인증 키 (필요한 경우)
+  ws_url: "ws://localhost:8001"  # WebSocket URL (실시간 데이터용)
+
+# 데이터 수집 설정
+data_collection:
+  interval: 60  # 데이터 수집 간격 (초)
+  exchanges:
+    - binance
+    - upbit
+    - bithumb
+    - coinbase
+    - kraken
+  
+  blockchains:
+    - bitcoin
+    - ethereum
+    - solana
+    - cardano
+
+# UI 설정
+ui:
+  theme: "light"  # 테마 (light/dark)
+  charts:
+    default_period: "1d"  # 기본 차트 기간
+    available_periods:
+      - "1h"
+      - "4h"
+      - "1d"
+      - "1w"
+      - "1m"
+  
+  dashboard:
+    refresh_interval: 300  # 대시보드 자동 새로고침 간격 (초)
+
+# 알림 설정
+alerts:
+  enabled: true
+  email:
+    enabled: false
+    smtp_server: ""
+    smtp_port: 587
+    username: ""
+    password: ""
+    from_email: ""
+    to_email: "" 
