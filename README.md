@@ -74,6 +74,9 @@ cryptolytica_ui/
 └── utils/                     # 공통 유틸리티 함수
 ```
 
+> 📊 **구조 시각화**: 프로젝트 구조와 도메인 관계의 시각적 표현은 [domains/VISUALIZATION.md](domains/VISUALIZATION.md) 문서를 참조하세요.
+> 🔄 **마이그레이션 가이드**: 도메인 중심 구조로의 마이그레이션 방법은 [domains/MIGRATION.md](domains/MIGRATION.md) 문서를 참조하세요.
+
 ## 도메인 중심 구조 설명
 
 프로젝트는 점진적으로 페이지 기반 구조에서 도메인 중심 구조로 마이그레이션하고 있습니다. 도메인 중심 구조는 다음과 같은 장점을 제공합니다:
