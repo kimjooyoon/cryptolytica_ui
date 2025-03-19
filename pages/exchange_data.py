@@ -9,7 +9,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from api.client import CryptoLyticaClient
 from utils.visualization import create_candlestick_chart, create_bar_chart
-from utils.helpers import format_number, format_currency
+from utils.helpers import format_number, format_currency, format_percentage
 
 # 페이지 설정
 st.set_page_config(
